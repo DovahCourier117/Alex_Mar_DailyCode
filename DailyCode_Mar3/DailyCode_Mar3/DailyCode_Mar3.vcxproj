@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{769B5C05-8D2B-4C28-97F2-5F5F1E8882E1}</ProjectGuid>
-    <RootNamespace>DailyCode_Mar1</RootNamespace>
+    <ProjectGuid>{201AFA22-C1C1-4B8E-9283-FD63253BA39B}</ProjectGuid>
+    <RootNamespace>DailyCode_Mar3</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -75,9 +75,6 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
-    <Link>
-      <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
-    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>

@@ -28,16 +28,16 @@ int main() {
 void JukeBox(int song) {
 
 	if (song = 1)
-		PlaySound(TEXT("NGGYU.wav"), NULL, SND_FILENAME | SND_ASYNC);
+		PlaySound(TEXT("NGGYU.wav"), NULL, SND_FILENAME);
 	else if (song = 2)
-		PlaySound(TEXT("NGGYU.wav"), NULL, SND_FILENAME | SND_ASYNC);
+		PlaySound(TEXT("NGGYU.wav"), NULL, SND_FILENAME);
 	else if (song = 3)
-		PlaySound(TEXT("NGGYU.wav"), NULL, SND_FILENAME | SND_ASYNC);
+		PlaySound(TEXT("NGGYU.wav"), NULL, SND_FILENAME);
 	else if (song = 4)
-		PlaySound(TEXT("NGGYU.wav"), NULL, SND_FILENAME | SND_ASYNC);
+		PlaySound(TEXT("NGGYU.wav"), NULL, SND_FILENAME);
 	else if (song = 5)
-		PlaySound(TEXT("NGGYU.wav"), NULL, SND_FILENAME | SND_ASYNC);
+		PlaySound(TEXT("NGGYU.wav"), NULL, SND_FILENAME);
 	else
-		PlaySound(TEXT("NGGYU.wav"), NULL, SND_FILENAME | SND_ASYNC);
+		PlaySound(TEXT("NGGYU.wav"), NULL, SND_FILENAME);
 
 }
